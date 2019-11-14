@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CodersCal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="login_preference">com.example.coderscal_login_preference</string>
+
+    <string name="login_status_preference">com.example.coderscal_login_status_preference</string>
+    <string name="login_ccuser">com.example.coderscal_login_ccuser</string>
+    <string name="login_cfuser">com.example.coderscal_login_cfuser</string>
+    <string name="login_topuser">com.example.coderscal_login_topuser</string>
+    <string name="login_heuser">com.example.coderscal_login_heuser</string>
+    <string name="login_hruser">com.example.coderscal_login_hruser</string>
+    <string name="listcc">com.example.coderscal_listcc</string>
+
+    <string name="listcf">com.example.coderscal_listcf</string>
+    <string name="listtop">com.example.coderscal_listtop</string>
+    <string name="listhe">com.example.coderscal_listhe</string>
+    <string name="listhr">com.example.coderscal_listhr</string>
+    <string name="listothers">com.example.coderscal_listothers</string>
+    <string-array name="sites">
+        <item>CodeChef</item>
+        <item>Codeforces</item>
+        <item>TopCoder</item>
+        <item>HackerEarth</item>
+        <item>HackerRank</item>
+    </string-array>
+
+
+</resources>

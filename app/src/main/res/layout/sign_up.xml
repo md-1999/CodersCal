@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <EditText
+        android:id="@+id/signname"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:background="#ffffff"
+        android:hint="UserName"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="7dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/signccuser"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="CodeChef"
+        android:drawableLeft="@drawable/codechef"
+        android:drawablePadding="7dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/signcfuser"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="Codeforces"
+        android:drawableLeft="@drawable/codeforces"
+        android:drawablePadding="7dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/signtopuser"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="TopCoder"
+        android:drawableLeft="@drawable/topcoder"
+        android:drawablePadding="7dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/signheuser"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="HackerEarth"
+        android:drawableLeft="@drawable/hackerearth"
+        android:drawablePadding="7dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/signhruser"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="HackerRank"
+        android:drawableLeft="@drawable/hackerrank"
+        android:drawablePadding="7dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/signpassword"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="Password"
+        android:drawablePadding="7dp"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="Confirm Password"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="7dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/but_register"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="Register"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Already Registered?"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="Login"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

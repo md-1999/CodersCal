@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg1"
+            />
+        <TextView
+            android:layout_marginTop="80dp"
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="I would like to hear from you!"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Feel free to contact!"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_below="@id/f1"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="To suggest a coding site or any improvement in the app, please email at :"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="madhurbudhiraja99@gmail.com"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/sugbut"
+        android:layout_below="@id/tv2"
+        android:padding="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SUGGEST"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
